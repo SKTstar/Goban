@@ -4,6 +4,7 @@ from ChessMan import *
 import threading
 
 class ChessManThread(ChessMan):
+    #初始化 线程的状态
     def __init__(self):
         super().__init__()
         self.con = threading.Condition()

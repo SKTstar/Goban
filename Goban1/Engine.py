@@ -1,6 +1,4 @@
 
-
-
 from ChessBoard import *
 from ChessMan import *
 import random,math

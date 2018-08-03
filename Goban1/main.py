@@ -60,19 +60,19 @@ def test5():
 	#创建Engine对象
 	engine = Engine(chessboard)
 	#垂直方向判断
-	# chessboard.set_chess((3,5), 'x')
-	# chessboard.set_chess((4,5), 'x')
-	# chessboard.set_chess((5,5), 'x')
-	# chessboard.set_chess((6,5), 'x')
-	# #chessboard.set_chess((7,5), 'x')
-	# chessboard.set_chess((8,5), 'x')
-	# chessboard.set_chess((9,5), 'x')
-	# chessboard.set_chess((10,5), 'x')
-	# chessboard.set_chess((11,5), 'x')
-	# chessboard.set_chess((12,5), 'x')
-	# #打印棋盘
-	# chessboard.print_board()
-	# ret = engine.is_won((8,5), 'x')
+	chessboard.set_chess((3,5), 'x')
+	chessboard.set_chess((4,5), 'x')
+	chessboard.set_chess((5,5), 'x')
+	chessboard.set_chess((6,5), 'x')
+	#chessboard.set_chess((7,5), 'x')
+	chessboard.set_chess((8,5), 'x')
+	chessboard.set_chess((9,5), 'x')
+	chessboard.set_chess((10,5), 'x')
+	chessboard.set_chess((11,5), 'x')
+	chessboard.set_chess((12,5), 'x')
+	#打印棋盘
+	chessboard.print_board()
+	ret = engine.is_won((8,5), 'x')
 
 	#水平方向判断
 	chessboard.set_chess((5,4), 'x')

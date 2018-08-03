@@ -9,7 +9,8 @@ class ChessMan(object):
 	#初始化
 	def __init__(self):
 		pass
-	
+
+	#设置棋子位置
 	def set_pos(self,pos):
 		self.pos = pos
 
